@@ -8,7 +8,7 @@ authors=[{name="frog",email="frog@thefrog.me"}]
 readme="README.md"
 requires-python=">=3.14"
 version = "0.0.1"
-dependencies = [rich]
+dependencies = ["rich"]
 license = "MIT"
 license-files = ["LICEN[CS]E*"]
 [project.scripts]
