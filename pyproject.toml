@@ -4,8 +4,15 @@ build-backend = "hatchling.build"
 
 [project]
 name = "resolution_week1_frogtospace"
+authors=[{name="frog",email="frog@thefrog.me"}]
+readme="README.md"
+requires-python=">=3.14"
 version = "0.0.1"
 dependencies = [rich]
-
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
 [project.scripts]
 todo = "resolution_week1_frogtospace.main:main"
+[project.urls]
+Homepage = "https://github.com/BoarderGamez/resolution-python-week-1"
+Issues = "https://github.com/BoarderGamez/resolution-python-week-1/issues"
